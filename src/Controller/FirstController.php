@@ -20,7 +20,8 @@ class FirstController extends AbstractController
         //chercher au niveau de la base de données vos users
         return $this->render('first/index.html.twig',[
         'name' => 'Dupont',
-        'firstname' => 'Marie'
+        'firstname' => 'Marie',
+            'path' => '       '
 
         ]);
     }
